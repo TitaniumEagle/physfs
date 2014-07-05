@@ -58,6 +58,7 @@ Makefile
 cmake_install.cmake
 install_manifest.txt
 CMakeScripts/
+CTestTestfile.cmake
 
 #################
 # Visual Studio #
