@@ -76,6 +76,8 @@ IF(MSVC)
     # VS.NET 8.0 got really really anal about strcpy, etc, which even if we
     #  cleaned up our code, zlib, etc still use...so disable the warning.
     ADD_DEFINITIONS(-D_CRT_SECURE_NO_WARNINGS=1)
+	
+	ADD_DEFINITIONS(-W3 -WX-)
 ENDIF(MSVC)
 
 # Basic chunks of source code ...
