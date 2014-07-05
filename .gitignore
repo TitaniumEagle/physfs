@@ -57,6 +57,7 @@ CMakeFiles
 Makefile
 cmake_install.cmake
 install_manifest.txt
+CMakeScripts/
 
 #################
 # Visual Studio #
@@ -257,3 +258,9 @@ FakesAssemblies/
 *.vcxproj
 *.filters
 *.sln
+
+#################
+# Xcode + CMake #
+#################
+
+*.xcodeproj
